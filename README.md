@@ -1,4 +1,5 @@
 # face_detection
+
 import cv2, numpy, os
 haar_file = 'haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(haar_file)
